@@ -41,20 +41,7 @@ def inject_file(file:bytes,filename:bytes,target_image:np.ndarray,random:bool)->
     last_channel=ceil(bits_to_alter*(channels_used_float%1))  
     lsb_last_channel=last_channel if last_channel!=0 else bits_to_alter         
 
-    '''
-    ############ PRINTS FOR DEBUGGING (Helps for checking the following indexing) #############   
-    print(f"\n\nSize of file in bits:{file_size_inbits}") 
-    print(f"Total channels:{total_channels}") 
-    print(f"Number of channels for storing the size:{channels_for_size}")
-    print(f"Available channels:{available_channels}") 
-    print(f"{bits_to_alter} bits will be altered per channel") 
-    print(f"Channels left for storing the file:{available_channels}")
-    print(f"Channels used for storing the file:{channels_used}")
-    print(f"Number of lsbs in last channel:{lsb_last_channel}") 
-    print(f"Free channels:{free_channels}")
-    print(f"Percentage of channels that left for the file over total channels:{round(available_channels/total_channels*100,2)}%") 
-    #############################################################################################
-    ''' 
+   
 
     bin_file="".join(f"{x:0>8b}" for x in file) #convert file in binary format 
     bin_fn="".join(f"{x:0>8b}" for x in filename).zfill(MAX_FILENAME_SIZE) #convert filename in binary format 
