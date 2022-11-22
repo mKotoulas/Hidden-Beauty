@@ -8,7 +8,7 @@ from rich.prompt import IntPrompt
 from os import listdir
 from sys import exit
 
-def generate_key()->bytes: #count the number of files in folder encryption keys 
+def generate_key()->bytes:
     counter=0
     for root,dirs,files in walk(ENCRYPTION_KEYS_PATH):
         for _ in files:counter+=1 
