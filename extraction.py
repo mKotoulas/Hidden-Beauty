@@ -37,18 +37,7 @@ def extract_file(mod_img_arr:np.array)->dict:
     #free_channels=available_channels-channels_used # channels left for random values 
      
     
-    '''
-    ############ PRINTS FOR DEBUGGING (Helps for checking the following indexing) #############
-    print(f"\n\nSize of file in bits:{file_size_inbits}") 
-    print(f"Total channels:{total_channels}") 
-    print(f"Number of channels for storing the size:{channels_for_size}")
-    print(f"{bits_to_alter} bits will be altered per channel") 
-    print(f"Channels left for storing the file:{available_channels}")
-    print(f"Channels used for storing the file:{channels_used}") 
-    print(f"Number of lsbs in last channel:{lsb_last_channel}")
-    print(f"Free channels:{free_channels}")
-    #############################################################################################
-    ''' 
+  
     
     #restore file
     file="".join([retrieve_bits(mod_img_arr_flat[i],bits_to_alter) for i in range(idx,idx+channels_used-1)]) 
