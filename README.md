@@ -14,6 +14,8 @@ In the folder files/input images place the image that will be used to hide the f
 
 Note: You can create subfolders in the above folders for your input images and files if you wish. 
 
+In your virtual enviroment type pip install -r requirements.txt to install the necessary packages. 
+
 Type python run_app.py in your terminal to run the script. 
 I suggest you run it through VS code at this point because the colors will not be good if you run it from your terminal. 
 
