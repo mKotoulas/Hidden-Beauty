@@ -1,5 +1,5 @@
 # What it does
-This is python script with a basic CLI that allows you to hide any type of file inside an RGB image using steganography with an additional option to encrypt the file before hiding it. 
+This is a python script with a basic CLI that allows you to hide any type of file inside an RGB image using steganography with an additional option to encrypt the file before hiding it. 
 
 # How it works
 To accomplish that,the script alters 1 to 4 lsb's of the image channels based on the size of the input image and file. This is a common steganographic technique. 
