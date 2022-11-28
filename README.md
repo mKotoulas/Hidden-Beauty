@@ -27,7 +27,7 @@ You can find the modified image in the folder files/modified images.
 # Important notice 
 Even the slightest modifiction to the image will make the decryption process not possible.   
 
-#Example 
+# Example 
 
 The picture below is 26.1 MB and contains a rar file (16,4 MB) of "The Rebublic", a work of the Greek philosopher Plato.  
  
