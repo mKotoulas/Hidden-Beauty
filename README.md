@@ -37,6 +37,13 @@ The picture below is 26.1 MB and contains a rar file (16,4 MB) of "The Rebublic"
 
 You can find the above file and 4 more sample images to use in the related folders.  
 
+# CLI DEMO
+Below I add some screenshots of the CLI 
+
+![image](https://user-images.githubusercontent.com/40547620/204318692-79949e4b-042b-41f3-a7d0-94ce42cb2920.png)
+![image](https://user-images.githubusercontent.com/40547620/204318889-89eed2a9-65a9-4f81-aa0f-c501b82f0712.png)
+![image](https://user-images.githubusercontent.com/40547620/204319009-0e86ed9c-7365-4c7d-aa8c-873f37913bb0.png)
+
 
 
 
